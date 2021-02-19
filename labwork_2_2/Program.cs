@@ -30,8 +30,8 @@ namespace labwork_2_2
         {
             get
             {
-                int num = Convert.ToInt32(key);
-                int index = Convert.ToInt32(DictionaryKeys[num - 1]);
+                var num = Convert.ToInt32(key);
+                var index = Convert.ToInt32(DictionaryKeys[num - 1]);
                 return DictionaryValues[index];
             }
         }
