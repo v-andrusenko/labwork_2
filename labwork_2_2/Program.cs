@@ -47,28 +47,33 @@ namespace labwork_2_2
     {
         static void Main(string[] args)
         {
-            MyDictionary<int,string> myDictionary = new MyDictionary<int,string>();
-            myDictionary.Add(1, "Январь");
-            myDictionary.Add(2, "Февраль");
-            myDictionary.Add(3, "Март");
-            myDictionary.Add(4, "Апрель");
-            myDictionary.Add(5, "Май");
-            myDictionary.Add(6, "Июнь");
-            myDictionary.Add(7, "Июль");
-            myDictionary.Add(8, "Август");
-            myDictionary.Add(9, "Сентябрь");
-            myDictionary.Add(10, "Октябрь");
-            myDictionary.Add(11, "Ноябрь");
-            myDictionary.Add(12, "Декабрь");
+            MyDictionary<string,string> myDictionary = new MyDictionary<string,string>();
+            myDictionary.Add("1", "Январь");
+            myDictionary.Add("2", "Февраль");
+            myDictionary.Add("3", "Март");
+            myDictionary.Add("4", "Апрель");
+            myDictionary.Add("5", "Май");
+            myDictionary.Add("6", "Июнь");
+            myDictionary.Add("7", "Июль");
+            myDictionary.Add("8", "Август");
+            myDictionary.Add("9", "Сентябрь");
+            myDictionary.Add("10", "Октябрь");
+            myDictionary.Add("11", "Ноябрь");
+            myDictionary.Add("12", "Декабрь");
 
             Console.Write("Введите номер месяца: ");
-            int num;
-            do
+            string num = Console.ReadLine();
+            try
             {
-                num = int.Parse(Console.ReadLine());
+                Console.WriteLine($"{num} - это {myDictionary[num]}");
             }
-            while (num <= 0 || num > 13);
-            Console.WriteLine($"{num} - это {myDictionary[num-1]}");
+            catch 
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine($"Ключ {num} не найден в словаре.");
+                Console.ForegroundColor = ConsoleColor.Gray;
+            }
+            
             Console.WriteLine($"\nОбщее количество пар: {myDictionary.DictionaryLength}");
         }
     }
