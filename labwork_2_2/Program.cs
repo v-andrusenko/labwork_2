@@ -30,8 +30,15 @@ namespace labwork_2_2
         {
             get
             {
-                var num = Convert.ToInt32(key);
-                var index = Convert.ToInt32(DictionaryKeys[num - 1]);
+                var index = 0;
+                foreach (var m in DictionaryKeys)
+                {
+                    if (!Equals(m, key))
+                    {
+                        index++;
+                    }
+                }
+
                 return DictionaryValues[index];
             }
         }
@@ -48,7 +55,7 @@ namespace labwork_2_2
         static void Main(string[] args)
         {
             MyDictionary<string,string> myDictionary = new MyDictionary<string,string>();
-            myDictionary.Add("1", "Январь");
+            myDictionary.Add("a", "Январь");
             myDictionary.Add("2", "Февраль");
             myDictionary.Add("3", "Март");
             myDictionary.Add("4", "Апрель");
