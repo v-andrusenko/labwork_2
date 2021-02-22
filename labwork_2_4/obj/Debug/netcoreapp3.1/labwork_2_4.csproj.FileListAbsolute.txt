@@ -1,0 +1,13 @@
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\bin\Debug\netcoreapp3.1\labwork_2_4.exe
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\bin\Debug\netcoreapp3.1\labwork_2_4.deps.json
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\bin\Debug\netcoreapp3.1\labwork_2_4.runtimeconfig.json
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\bin\Debug\netcoreapp3.1\labwork_2_4.runtimeconfig.dev.json
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\bin\Debug\netcoreapp3.1\labwork_2_4.dll
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\bin\Debug\netcoreapp3.1\labwork_2_4.pdb
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\obj\Debug\netcoreapp3.1\labwork_2_4.csprojAssemblyReference.cache
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\obj\Debug\netcoreapp3.1\labwork_2_4.AssemblyInfoInputs.cache
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\obj\Debug\netcoreapp3.1\labwork_2_4.AssemblyInfo.cs
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\obj\Debug\netcoreapp3.1\labwork_2_4.csproj.CoreCompileInputs.cache
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\obj\Debug\netcoreapp3.1\labwork_2_4.dll
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\obj\Debug\netcoreapp3.1\labwork_2_4.pdb
+C:\Users\Valerii\Desktop\labwork_2\labwork_2_4\obj\Debug\netcoreapp3.1\labwork_2_4.genruntimeconfig.cache
